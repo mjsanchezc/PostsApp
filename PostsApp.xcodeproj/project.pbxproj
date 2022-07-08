@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D6EDF972877EE4C00A7A141 /* CommentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6EDF962877EE4C00A7A141 /* CommentsCell.swift */; };
+		2D6EDF9A2877EF2F00A7A141 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6EDF992877EF2F00A7A141 /* Comment.swift */; };
+		2D6EDFA02877FE4800A7A141 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6EDF9F2877FE4800A7A141 /* User.swift */; };
+		2D6EDFA22878015000A7A141 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6EDFA12878015000A7A141 /* UITableView.swift */; };
 		2D826E432877B0E600D1D6A3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D826E422877B0E600D1D6A3 /* Post.swift */; };
 		2D826E472877B3C700D1D6A3 /* PostsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D826E462877B3C700D1D6A3 /* PostsApi.swift */; };
 		2D826E492877B52400D1D6A3 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D826E482877B52400D1D6A3 /* Urls.swift */; };
@@ -45,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D6EDF962877EE4C00A7A141 /* CommentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCell.swift; sourceTree = "<group>"; };
+		2D6EDF992877EF2F00A7A141 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		2D6EDF9F2877FE4800A7A141 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2D6EDFA12878015000A7A141 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		2D826E422877B0E600D1D6A3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		2D826E462877B3C700D1D6A3 /* PostsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsApi.swift; sourceTree = "<group>"; };
 		2D826E482877B52400D1D6A3 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
@@ -117,8 +125,8 @@
 		2D0262FB287683D2006B0C97 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2D6EDF982877EE5500A7A141 /* Cells */,
 				2DDF812D28767E4A00C7A34F /* PostsListController.swift */,
-				2DC3451D2876A973007C8E22 /* PostListCell.swift */,
 				2D826E4A2877B67C00D1D6A3 /* PostDetailsController.swift */,
 			);
 			path = Controllers;
@@ -142,8 +150,19 @@
 				2DDF813228767E4A00C7A34F /* PostsApp.xcdatamodeld */,
 				2DC3451828768AF7007C8E22 /* SegmentedControl.swift */,
 				2D826E422877B0E600D1D6A3 /* Post.swift */,
+				2D6EDF9F2877FE4800A7A141 /* User.swift */,
+				2D6EDF992877EF2F00A7A141 /* Comment.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2D6EDF982877EE5500A7A141 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2DC3451D2876A973007C8E22 /* PostListCell.swift */,
+				2D6EDF962877EE4C00A7A141 /* CommentsCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		2D826E442877B39400D1D6A3 /* API */ = {
@@ -166,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				2DC3451B28768E14007C8E22 /* UIColor.swift */,
+				2D6EDFA12878015000A7A141 /* UITableView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -390,11 +410,15 @@
 			files = (
 				2DDF812E28767E4A00C7A34F /* PostsListController.swift in Sources */,
 				2DC3451C28768E14007C8E22 /* UIColor.swift in Sources */,
+				2D6EDFA22878015000A7A141 /* UITableView.swift in Sources */,
 				2D826E472877B3C700D1D6A3 /* PostsApi.swift in Sources */,
 				2DDF812A28767E4A00C7A34F /* AppDelegate.swift in Sources */,
 				2D826E432877B0E600D1D6A3 /* Post.swift in Sources */,
 				2DDF812C28767E4A00C7A34F /* SceneDelegate.swift in Sources */,
+				2D6EDFA02877FE4800A7A141 /* User.swift in Sources */,
 				2D826E4B2877B67C00D1D6A3 /* PostDetailsController.swift in Sources */,
+				2D6EDF972877EE4C00A7A141 /* CommentsCell.swift in Sources */,
+				2D6EDF9A2877EF2F00A7A141 /* Comment.swift in Sources */,
 				2DC3451928768AF7007C8E22 /* SegmentedControl.swift in Sources */,
 				2DDF813428767E4A00C7A34F /* PostsApp.xcdatamodeld in Sources */,
 				2DC3451E2876A973007C8E22 /* PostListCell.swift in Sources */,

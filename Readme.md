@@ -12,6 +12,6 @@ Once Pods are installed, go to the project folder and open the `PostsApp.xcworks
 
 <img src="./PostsApp/Assets.xcassets/Images/image.png" width="600"/>
 
-and press the play button to build the app (or press `cmd + B`)
+and press the play button to build the app (or press `cmd + R`)
 
 <img src="./PostsApp/Assets.xcassets/Images/image1.png" width="188"/>
