@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 3c5516cf5e3e76522ae0ffc86ef0c3ad183c9b1b
+PODS:
+  - RESegmentedControl (0.5.1)
+
+DEPENDENCIES:
+  - RESegmentedControl
+
+SPEC REPOS:
+  trunk:
+    - RESegmentedControl
+
+SPEC CHECKSUMS:
+  RESegmentedControl: 96aa84d861d3715128188c66faf1222d41df756e
+
+PODFILE CHECKSUM: 713a75ef3a0259d04eb621c9bbc8c30c0db1cf90
 
 COCOAPODS: 1.11.3
