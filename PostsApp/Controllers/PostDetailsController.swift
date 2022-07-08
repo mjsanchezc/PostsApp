@@ -7,7 +7,12 @@
 
 import UIKit
 import Foundation
+import RESegmentedControl
 
 class PostDetailsController: UIViewController {
+    @IBOutlet private weak var segmentedControl: RESegmentedControl?
+    
+    let segmentsItem: [SegmentModel] = [SegmentModel(title: "Title")]
+
     
 }

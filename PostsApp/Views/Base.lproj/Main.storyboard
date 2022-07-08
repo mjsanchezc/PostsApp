@@ -133,16 +133,33 @@
                     <view key="view" contentMode="scaleToFill" id="M4p-Wo-hQr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V2Q-pI-5X3" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                <rect key="frame" x="20" y="20" width="374" height="45"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="WhY-eH-feb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="GGU-r5-6cK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GGU-r5-6cK" firstAttribute="trailing" secondItem="V2Q-pI-5X3" secondAttribute="trailing" constant="20" id="dwY-Gf-FyW"/>
+                            <constraint firstItem="V2Q-pI-5X3" firstAttribute="top" secondItem="GGU-r5-6cK" secondAttribute="top" constant="20" id="mp5-Pi-wk2"/>
+                            <constraint firstItem="V2Q-pI-5X3" firstAttribute="leading" secondItem="GGU-r5-6cK" secondAttribute="leading" constant="20" id="nWM-Ll-bJV"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Post" id="O64-aj-D3l">
                         <barButtonItem key="backBarButtonItem" title=" " id="BLe-Kw-EUr"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="segmentedControl" destination="V2Q-pI-5X3" id="8wm-ir-nZI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="59j-k4-ZEk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1968" y="115"/>
+            <point key="canvasLocation" x="1966.6666666666667" y="114.50892857142857"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1Qc-xi-TJ4">
