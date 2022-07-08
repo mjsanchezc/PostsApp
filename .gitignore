@@ -2,3 +2,5 @@
 Pods/*
 *.xcworkspace
 Tests/*
+xcuserdata
+DerivedData/*
